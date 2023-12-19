@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <a href="" class="logo"></a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <!-- <a href="#"><i class="uil uil-home"></i> Home</a> -->
+         <!--  <a href="#"><i class="uil uil-compass"></i> Explore</a>
+          <a href="#"><i class="uil uil-info-circle"></i> About</a>
+          <a href="#"><i class="uil uil-document-layout-left"></i> Blog</a> -->
+          <!-- <a href="#"><i class="uil uil-envelope"></i> Contact</a> -->
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+  </header>
+
+  <section class="home">
+    <!-- <div class="media-icons">
+      <a href="https://web.facebook.com/profile.php?id=100095053329778&_rdc=1&_rdr"><i class="uil uil-facebook-f"></i></a>
+      <a href="#"><i class="uil uil-instagram"></i></a>
+      <a href="#"><i class="uil uil-twitter"></i></a>
+    </div> -->
+
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="media-icons">
+            <a href="https://web.facebook.com/escuelahuancayo"><i class='bx bxl-facebook-circle'></i></a>
+          </div>
+          <img src="images/bg1.jpg" alt="">
+          <div class="text-content">
+            <!-- <h2 class="title">ESUN <span>Season</span></h2> -->
+            <a href="#" class="logo-link">
+              <img src="images/esunlogo.png" alt="Logo de ESUN" class="logo">
+            </a>
+            <p>ESUN Business School: Para quienes buscan formarse en corto tiempo en las áreas de administración, economía, contabilidad e ingeniería, ofrecemos una formación de vanguardia que les preparará para enfrentar los desafíos del mundo empresarial actual, te invitamos a seguir nuestros cursos cortos y así estar preparado para el mundo laboral.</p>
+           <a href="https://esun.edu.pe/esun"><button class="read-btn">Ver mas <i class="uil uil-arrow-right"></i></button></a>
+            
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <div class="media-icons">
+            <a href="https://web.facebook.com/abacocursos"><i class='bx bxl-facebook-circle'></i>
+            
+            </a>
+
+          </div>
+          <img src="images/bg2.jpg" alt="">
+          <div class="text-content">
+            <!-- <h2 class="title">Winter <span>Season</span></h2> -->
+            <a href="#" class="logo-link">
+              <img src="images/aba.png" alt="Logo de ESUN" class="logo">
+            </a>
+            <p>Si estás buscando una institución comprometida en ayudarte a sobresalir en el campo de la psicología y salud, ABACO Escuela de Psicología y Salud es tu elección. Estamos aquí para apoyarte en tu camino hacia el éxito profesional y el crecimiento en tu carrera.</p>
+            <a href="https://esun.edu.pe/abaco"><button class="read-btn">Ver mas <i class="uil uil-arrow-right"></i></button></a>
+            
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <div class="media-icons">
+            <a href="https://web.facebook.com/profile.php?id=100078489085952"><i class='bx bxl-facebook-circle'></i></a>
+          </div>
+          <img src="images/bg3.jpg" alt="">
+          <div class="text-content">
+            <!-- <h2 class="title">Summer <span>Season</span></h2> -->
+            <a href="#" class="logo-link">
+              <img src="images/lux.png" alt="Logo de ESUN" class="logo">
+            </a>
+            <p>Si eres un amante del Derecho y estás buscando una institución comprometida en ayudarte a sobresalir en este campo, LUXOR Escuela Jurídica Internacional es tu elección. Estamos aquí para apoyarte en tu camino hacia el éxito profesional y el crecimiento en tu carrera.</p>
+           <a href="https://esun.edu.pe/luxor"><button class="read-btn">Ver mas <i class="uil uil-arrow-right"></i></button></a>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="media-icons">
+            <a href="https://web.facebook.com/profile.php?id=100095053329778&_rdc=1&_rdr"><i class='bx bxl-facebook-circle'></i></a>
+          </div>
+          <img src="images/bg4.jpeg" alt="">
+          <div class="text-content">
+            <!-- <h2 class="title">Spring <span>Season</span></h2> -->
+            <a href="#" class="logo-link">
+              <img src="images/in.png" alt="Logo de ESUN" class="logo">
+            </a>
+            <p>Ven a ESUN ENGLISH SCHOOL y accede a nuestras promociones especiales para los primeros estudiantes que se inscriban. No pierdas la oportunidad de beneficiarte de descuentos exclusivos y paquetes de matrícula reducidos.</p>
+            <a href="https://esun.edu.pe/yesenglisschool/index.html"><button class="read-btn">Ver mas<i class="uil uil-arrow-right"></i></button></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="images/esun.png" class="swiper-slide" alt="">
+        <img src="images/abaco.png" class="swiper-slide" alt="">
+        <img src="images/luxor.png" class="swiper-slide" alt="">
+        <img src="images/yes.png" class="swiper-slide" alt="">
+      </div>
+    </div>
+  </section>
+
+ <!--  <section class="about section">
+    <h2>Sobre Nosotros</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section> -->
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+      
